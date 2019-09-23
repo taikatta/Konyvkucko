@@ -6,22 +6,20 @@
 
 /*--------------------------------------------Heading*/
 
-header {
+header, footer {
     margin: 0;
+    background-color: #51a4e3; /* #1d7fcf; */
+    color: #d4e3f2;
 }
 
-.heading {
-    margin-left: 50px;
+footer > div{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    color: #d4e3f2; 
 }
 
-.logo {
-    background: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75%;
-    min-height: 260px;
-    background-color: #1d7fcf;
-}
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -29,8 +27,7 @@ header {
 
 .menucontainer {
     font-size: 0;
-    background-color: #1d7fcf;
-    min-height: 260px;
+    min-height: 60px;
 }
 
 .menuitem a {
@@ -42,19 +39,86 @@ header {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 28px;
-    margin-top: 15%;  
-    margin-bottom: 90px;
+    margin-top: 10px;  
+    margin-bottom: 10px;
     text-align: center;
 
 }
 
 #nav span {
     color: #d4e3f2;
-}
+} 
 
 #nav {
     margin: 0;
 }
+
+  
+.page-title h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container {
+    padding: 10px 0;
+    background-color: #d4e3f2;
+
+}
+
+/*
+.container:not(:last-child) {
+    margin-right: 10px;
+
+}
+*/
+
+#button1, #button2, #button3, #button4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/deansgrange1.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+
+.introduction {
+    color: #d4e3f2;
+    text-align: center;
+    height: 560px;
+}
+
+
+/*
+
+.logo {
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    min-height: 60px;
+    background-color: #1d7fcf;
+}
+
+*/
+
+/*
+.heading {
+    margin-left: 50px;
+}
+
+*/
+
+/*
 
 .page-title {
     font-family: "Montserrat", sans-serif;
@@ -62,46 +126,10 @@ header {
     font-size: 28px;
     color: #0f68b7;
     background-color: #8bc4ec;
-    min-height: 260px;
-    width: 100%;
+    min-height: 60px;
+    width: auto;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 0;
 }
-  
-.page-title h1 {
-    margin-top: 100px;
-    text-align: center;
-}
-
-.book-search {
-    padding-top: 30px;
-    background-color: #d4e3f2;
-    position: relative;
-    width: 100%;
-}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-form {
-    display: block;
-    margin-top: 0em;
-}
-
-.form-control {
-    display: block;
-    position: relative;
-    border-radius: 4px;
-    width: 100%;
-    height: 34px;
-}
-
-option {
-    display: block;
-    min-height: 1.2em;
-}
-
+*/
