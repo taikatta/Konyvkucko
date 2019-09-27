@@ -2,24 +2,30 @@
 
 /*--------------------------------------------Colors*/
 
-
-
-/*--------------------------------------------Heading*/
-
-header, footer {
+header {
     margin: 0;
     background-color: #51a4e3; /* #1d7fcf; */
-    color: #d4e3f2;
-}
-
-footer > div{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    font-size: 20px;
     text-align: center;
-    color: #d4e3f2; 
 }
 
+.introduction {
+    color: black; /*#d4e3f2; */
+    text-align: center;
+    height: 560px;
+}
+
+.home-background {
+    height: 100vh;
+    background: url("../images/deansgrange1.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -42,12 +48,25 @@ footer > div{
     margin-top: 10px;  
     margin-bottom: 10px;
     text-align: center;
-
 }
 
 #nav span {
     color: #d4e3f2;
 } 
+
+.brand {
+    color: #d4e3f2;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 10px;  
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.brand:hover {
+    color: #d4e3f2;
+}
 
 #nav {
     margin: 0;
@@ -65,71 +84,17 @@ footer > div{
 
 }
 
-/*
-.container:not(:last-child) {
-    margin-right: 10px;
-
-}
-*/
-
 #button1, #button2, #button3, #button4 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-
-.callout-container {
-    height: 100vh;
-    background: url("../images/deansgrange1.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: relative;
-}
-
-.introduction {
-    color: #d4e3f2;
-    text-align: center;
-    height: 560px;
-}
-
-
-/*
-
-.logo {
-    background: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75%;
-    min-height: 60px;
-    background-color: #1d7fcf;
-}
-
-*/
-
-/*
-.heading {
-    margin-left: 50px;
-}
-
-*/
-
-/*
-
-.page-title {
+footer  {
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    color: #0f68b7;
-    background-color: #8bc4ec;
-    min-height: 60px;
-    width: auto;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #d4e3f2;
+    background-color: #51a4e3;
+    text-align: center;
     margin: 0;
 }
-*/
