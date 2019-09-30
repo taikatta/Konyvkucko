@@ -27,7 +27,11 @@ html {
     background-color: #51a4e3;
     margin: 20px auto;
     padding: 20px;
-    color: #116bba;
+    color: #d4e3f2;
+}
+
+#contactform > h2 {
+    color: #d4e3f2;
 }
 
 #contact {
@@ -35,7 +39,7 @@ html {
 }
 
 .jumbotron {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .home-background {
@@ -60,6 +64,14 @@ html {
     background: url("../images/deansgrange3.jpg") no-repeat center fixed;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #116bba;
+}
 
 
 .list-inline-item:not(:last-child) {
@@ -69,6 +81,10 @@ html {
 #books {
     margin: 0;
     background-color: #51a4e3;
+}
+
+#books > h2 {
+    color: #d4e3f2;;
 }
 
 .menucontainer {
@@ -82,7 +98,6 @@ html {
 }
 
 #nav li {
-    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 10px;  
@@ -96,7 +111,6 @@ html {
 
 .brand {
     color: #d4e3f2;
-    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 10px;  
@@ -130,7 +144,6 @@ html {
 }
 
 footer  {
-    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 20px;
     color: #d4e3f2;
