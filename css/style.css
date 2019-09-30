@@ -9,9 +9,10 @@ header {
 }
 
 
-.introduction {
+.introduction > h1 {
     text-align: center;
-    height: 560px;
+    position: absolute;
+    top: 10%;
     
 }
 
