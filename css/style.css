@@ -8,15 +8,40 @@ header {
     text-align: center;
 }
 
+
 .introduction {
-    color: black; /*#d4e3f2; */
     text-align: center;
     height: 560px;
+    
+}
+
+section {
+    background-color: #51a4e3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#contactform {
+    background-color: #51a4e3;
+    margin: 20px auto;
+    padding: 20px;
+    color: #116bba;
+}
+
+#contact {
+    background: url("../images/deansgrange4.jpg") no-repeat center fixed;
+}
+
+.jumbotron {
+    margin-bottom: 0;
 }
 
 .home-background {
+    color: #d4e3f2;
     height: 100vh;
-    background: url("../images/deansgrange1.jpg") no-repeat bottom right fixed;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,8 +52,23 @@ header {
     position: relative;
 }
 
+.firstphoto {
+    background: url("../images/deansgrange1.jpg") no-repeat center fixed;
+}
+
+.secondphoto {
+    background: url("../images/deansgrange3.jpg") no-repeat center fixed;
+}
+
+
+
 .list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+#books {
+    margin: 0;
+    background-color: #51a4e3;
 }
 
 .menucontainer {
