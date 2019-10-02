@@ -86,19 +86,56 @@ header {
 
 /*-------------------Books-------------------------*/
 
-.jumbotron {
-    margin: 0;
-    padding-top: 10px;
-}
-
 #books {
     margin: 0;
     background-color: #51a4e3;
 }
 
-#books > h2 {
+#books h2 {
     color: #d4e3f2;
     text-align: center;
+}
+
+.card-body {
+    background-color: #51a4e3;
+    color: #d4e3f2;
+}
+
+.btn-light {
+    color: #116bba;
+}
+
+/*-------------------Gallery-------------------------*/
+
+.jumbotron {
+    margin: 0;
+    padding-top: 10px;
+}
+
+#gallery {
+    margin: 0;
+    background-color: #51a4e3;
+}
+
+#gallery h2 {
+    color: #d4e3f2;
+    text-align: center;
+}
+
+
+.secondphoto {
+    color: #d4e3f2;
+    height: 100vh;
+    background: url("../images/Deansgrangephoto3.jpg") no-repeat center fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
 }
 
 /*-------------------Contact us-------------------------*/
@@ -110,7 +147,7 @@ header {
     color: #d4e3f2;
 }
 
-#contactform > p {
+#contactform h2 {
     color: #d4e3f2;
     text-align: center;
     font-size: 2em;
