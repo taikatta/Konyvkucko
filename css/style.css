@@ -88,6 +88,7 @@ header {
 
 .jumbotron {
     margin: 0;
+    padding-top: 10px;
 }
 
 #books {
