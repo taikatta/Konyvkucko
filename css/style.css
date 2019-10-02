@@ -96,8 +96,11 @@ header {
     text-align: center;
 }
 
-.card-body {
+.card {
     background-color: #51a4e3;
+}
+
+.card-body {
     color: #d4e3f2;
 }
 
