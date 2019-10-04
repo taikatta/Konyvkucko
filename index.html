@@ -13,34 +13,39 @@
 </head>
 
 <body>
-    <!-- *****Nav***** -->
+
     <header>
-        <div class="row no-gutters">
-            <a href="index.html" style="text-decoration: none" class="col-md-4 brand">Könyvkuckó.</a>
-            <div class="col-md-8 d-none d-md-block">
-                <div class="col">
-                    <ul id="nav" class="list-inline menucontainer">
-                        <li class="col-4 list-inline-item menuitem">
-                            <a href="#books"><span>Books</span></a>
-                        </li>
-                        <li class="col-4 list-inline-item menuitem">
-                            <a href="#gallery"><span>Gallery</span></a>
-                        </li>
-                        <li class="col-4 list-inline-item menuitem">
-                            <a href="#contact"><span>Contact</span></a>
-                        </li>
-                    </ul>
-                </div>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html">Könyvkuckó.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+              </button>
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#books" style="color: #d4e3f2;">Books<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery" style="color: #d4e3f2;">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: #d4e3f2;">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
+
     </header>
-    <!-- *****Introduction***** -->
+
+    <!-- Introduction -->
     <section>
         <div class="home-background introduction">
-            <h2>Hungarian children's books in Ireland!</h2>
+            <!-- <h2>Hungarian children's books in Ireland!</h2> -->
         </div>
     </section>
-    <!-- *****Books***** -->
+    <!-- Books -->
     <section id="books" class="jumbotron">
         <h2>Our Books</h2>
         <div class="card-deck">
@@ -73,12 +78,12 @@
             </div>
         </div>
     </section>
-    <!-- *****Second background photo***** -->
-    
+    <!-- Second background photo -->
+
     <div class="secondphoto"></div>
 
 
-    <!-- *****Gallery Jumbotron***** -->
+    <!-- Gallery Jumbotron -->
     <section id="gallery" class="jumbotron">
         <h2>Gallery</h2>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -103,53 +108,56 @@
               </a>
         </div>
     </section>
-    <!-- *****Contact***** -->
+    <!-- Contact -->
     <section id="contact" class="jumbotron">
-        <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-xs-12 col-sm-6" id="contactform">
-                <div class="d-none d-md-block">
-                    <h2>Get In Touch</h2>
-                    <h5><i class="fas fa-envelope-open-text"></i> dublinikonyvkucko@gmail.com
-                    </h5>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-6 d-none d-md-block">
-                        <h5><i class="fas fa-map-marked-alt"></i> Address
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-xs-12 col-sm-6" id="contactform">
+                    <div class="d-none d-md-block">
+                        <h2>Get In Touch</h2>
+                        <h5><i class="fas fa-envelope-open-text"></i> dublinikonyvkucko@gmail.com
                         </h5>
-                        <p>Clonkeen Dr<br>Deansgrange<br>Dublin<br>D18 NY58</p>
                     </div>
-                    <div class="col-6 d-none d-md-block">
-                        <h5><i class="fas fa-phone"></i> Phone
-                        </h5>
-                        <p>(01) 285 0860</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-6 d-none d-md-block">
+                            <h5><i class="fas fa-map-marked-alt"></i> Address
+                            </h5>
+                            <p>Clonkeen Dr<br>Deansgrange<br>Dublin<br>D18 NY58</p>
+                        </div>
+                        <div class="col-6 d-none d-md-block">
+                            <h5><i class="fas fa-phone"></i> Phone
+                            </h5>
+                            <p>(01) 285 0860</p>
+                        </div>
                     </div>
+                    <h2>Send Us A Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light" style="color: #116bba">Submit</button>
+                    </form>
                 </div>
-                <h2>Send Us A Message</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Your Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-light" style="color: #116bba" >Submit</button>
-                </form>
             </div>
         </div>
     </section>
-    <!-- *****Footer***** -->
+    <!-- Footer -->
     <footer>
         <div>
             <a href="https://www.facebook.com/konyvkucko/" target="_blank">
-                <i class="fab fa-facebook-square fa-3x" style="color: #116bba"></i></a>
+                <i class="fab fa-facebook-square fa-3x" style="color: #d4e3f2"></i></a>
         </div>
         <div class="d-block d-md-none">
             <h6><i class="fas fa-envelope-open-text"></i> dublinikonyvkucko@gmail.com</h6>

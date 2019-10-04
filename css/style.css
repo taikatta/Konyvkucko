@@ -11,53 +11,23 @@ body {
 
 /*-------------------Header, nav-------------------------*/
 
-header {
-    margin: 0;
-    background-color: #51a4e3; 
-    text-align: center;
+
+.navbar {
+    background-color: #51a4e3;
 }
 
-#nav {
-    margin: 0;
-}
-
-#nav li {
+.navbar-brand {
     font-weight: 200;
     font-size: 28px;
-    margin-top: 10px;  
-    margin-bottom: 10px;
-    text-align: center;
+    color: #d4e3f2 !important;
 }
 
-#nav span {
-    color: #d4e3f2;
-} 
-
-.brand {
-    color: #d4e3f2;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 10px;  
-    margin-bottom: 10px;
-    text-align: center;
+.navbar-brand:hover {
+    color: #d4e3f2  !important;
 }
 
-.brand:hover {
-    color: #d4e3f2;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-    min-height: 60px;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
+.nav-link {
+    font-size: 20px;
 }
 
 /*-------------------Introduction-------------------------*/
@@ -70,7 +40,7 @@ header {
 }
 
 .home-background {
-    color: #d4e3f2;
+    color: #d4e3f2;  
     height: 100vh;
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
     background-position: center;
@@ -92,7 +62,7 @@ header {
 }
 
 #books h2 {
-    color: #d4e3f2;
+    color: #d4e3f2; 
     text-align: center;
 }
 
@@ -101,7 +71,7 @@ header {
 }
 
 .card-body {
-    color: #d4e3f2;
+    color: #d4e3f2;  
 }
 
 .btn-light {
@@ -112,7 +82,6 @@ header {
 
 .jumbotron {
     margin: 0;
-    padding-top: 10px;
 }
 
 #gallery {
@@ -121,13 +90,13 @@ header {
 }
 
 #gallery h2 {
-    color: #d4e3f2;
+    color: #d4e3f2; 
     text-align: center;
 }
 
 
 .secondphoto {
-    color: #d4e3f2;
+    color: #d4e3f2;  
     height: 100vh;
     background: url("../images/Deansgrangephoto3.jpg") no-repeat center fixed;
     background-position: center;
@@ -147,23 +116,24 @@ header {
     background-color: #51a4e3;
     margin: 20px auto;
     padding: 20px;
-    color: #d4e3f2;
+    color: #d4e3f2;  
 }
 
 #contactform h2 {
-    color: #d4e3f2;
+    color: #d4e3f2; 
     text-align: center;
     font-size: 2em;
 }
 
 #contact {
+    height: 100vh;
     background: url("../images/Deansgrangephoto1.jpeg") no-repeat center fixed;
     background-color: #51a4e3;
-    background-size: cover;
-    height: 100vh;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     position: relative;
 }
 
@@ -172,7 +142,7 @@ header {
 footer  {
     font-weight: 100;
     font-size: 20px;
-    color: #d4e3f2;
+    color: #d4e3f2;  
     background-color: #51a4e3;
     text-align: center;
     margin: 0;
