@@ -11,7 +11,6 @@ body {
 
 /*-------------------Header, nav-------------------------*/
 
-
 .navbar {
     background-color: #51a4e3;
 }
@@ -32,14 +31,14 @@ body {
 
 /*-------------------Introduction-------------------------*/
 
-
-.introduction > h2 {
+.welcome > h2 {
     text-align: center;
+    color: #116bba;
     position: absolute;
-    top: 10%;
+    top: 25%;
 }
 
-.home-background {
+.first_background_photo {
     color: #d4e3f2;  
     height: 100vh;
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
@@ -95,7 +94,7 @@ body {
 }
 
 
-.secondphoto {
+.second_background_photo {
     color: #d4e3f2;  
     height: 100vh;
     background: url("../images/Deansgrangephoto3.jpg") no-repeat center fixed;
@@ -122,10 +121,9 @@ body {
 #contactform h2 {
     color: #d4e3f2; 
     text-align: center;
-    font-size: 2em;
 }
 
-#contact {
+.third__background_photo {
     height: 100vh;
     background: url("../images/Deansgrangephoto1.jpeg") no-repeat center fixed;
     background-color: #51a4e3;
