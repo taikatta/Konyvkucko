@@ -31,7 +31,7 @@ The Contact section is added to let users to get in touch with me. I used [Boots
 
 Please note, that although this section contains a form, information entered into the fields will not feed anywhere, as the scope of the project does not include any back-end functionality.
 
-At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-square)'s Facebook icon.
+At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-square)'s Facebook icon. Clicking on the icon will open the Konyvkucko's Facebook page in a new tab.
 
 ### Features Left to Implement
 * I would like to add all the books we have at the library and also a search bar, to make it easier to search within the books.
@@ -57,8 +57,13 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 * error
 
 ## Deployment
+My website has been deployed using GitHub Pages.
 
 ## Credits
+
+### Content
+
+At Our Books section the short description of the books are from the author's ([Berg Judit](https://www.bergjudit.hu/)) webpage.
 
 ### Media
 
@@ -68,6 +73,7 @@ The second and third background photos are mine. The photos in slideshow were al
 
 The photos of the book covers in the Books session are from the author's ([Berg Judit](https://www.bergjudit.hu/)) webpage. 
 
+### Acknowledgements
 
 
 
