@@ -15,7 +15,7 @@ User Stories
 
 * As a Hungarian parent living in Ireland I would like to know about the books that are available to borrow from Libraries Ireland
 
-* As a Hungarian parent living in Ireland I would like to be able to contact Konyvkucko with my questions or in case I want to donate books to the Hugnarian Library
+* As a Hungarian parent living in Ireland I would like to be able to contact Konyvkucko with my questions or in case I want to donate books to the Hungarian Library
 
 ## Features
 
@@ -51,7 +51,7 @@ At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-squar
     
 ## Testing
 
-I used the web developer tools consistenly. 
+I used the web developer tools consistently. 
 
 I used [W3C Validator](https://validator.w3.org/) to check the markup validity of Web documents in HTML and CSS. Highlighted errors:
 * error
