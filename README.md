@@ -3,7 +3,7 @@
 
 This is my first Milestone Project on the Full Stack Web Developer Code Institute course.
 
-I moved to Ireland 5 years ago and since then every time we visit back to Hungary my luggage is packed with Hungarian books. I had an idea of launching a Hungarian Library somewhere in Dublin. Last year I applied for a grant, as a first step I wanted to buy only children's books. The collection is about 120 books by now and it is growing, i got books from authors, organizations, individuals. The launch of the Hungarian children's book will be on the 29th oc October, 2019.
+I moved to Ireland 5 years ago and since then every time we visit back to Hungary my luggage is packed with Hungarian books. I had an idea of launching a Hungarian Library somewhere in Dublin. Last year I applied for a grant, as a first step I wanted to buy only children's books. The collection is about 120 books by now and it is growing, I got books from authors, organizations, individuals. The launch of the Hungarian children's book will be on the 29th oc October, 2019.
 
 ## UX
 
@@ -54,7 +54,8 @@ At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-squar
 I used the web developer tools consistently. 
 
 I used [W3C Validator](https://validator.w3.org/) to check the markup validity of Web documents in HTML and CSS. Highlighted errors:
-* error
+* I used the same id in two different places.
+* When I deleted a <div> I forgot to delete the closing </div>
 
 ## Deployment
 My website has been deployed using GitHub Pages.
@@ -67,7 +68,7 @@ At Our Books section the short description of the books are from the author's ([
 
 ### Media
 
-The first background photo was taken from [Stavros Sotiriou's](https://ssaphoto.co.uk/deansgrange-library) website.
+The first background photo was taken from [Stavros Sotiriou's](https://ssaphoto.co.uk/deansgrange-library) website. I have Stavros' permission to use the photo in my project.
 
 The second and third background photos are mine. The photos in slideshow were also taken by me.
 
