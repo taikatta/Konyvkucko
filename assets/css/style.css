@@ -137,6 +137,11 @@ body {
     bottom: 10%;
 }
 
+.address {
+    color: #d4e3f2;
+    text-align: center;
+}
+
 /*-------------------Footer-------------------------*/
 
 footer  {
