@@ -95,6 +95,11 @@ body {
     text-align: center;
 }
 
+.carousel-inner{
+  width: 90%;
+  margin: auto;
+}
+
 .second_background_photo {
     color: #d4e3f2;  
     height: 100vh;
@@ -113,6 +118,7 @@ body {
 .carousel-control-next, 
 .carousel-control-prev {
     transform: scale(2);
+    width: 20%;
 }
 
 /*-------------------Contact us-------------------------*/
