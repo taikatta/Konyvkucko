@@ -110,6 +110,11 @@ body {
     position: relative;
 }
 
+.carousel-control-next, 
+.carousel-control-prev {
+    transform: scale(2);
+}
+
 /*-------------------Contact us-------------------------*/
 
 #contactform {
@@ -151,4 +156,14 @@ footer  {
     background-color: #51a4e3;
     text-align: center;
     margin: 0;
+}
+
+/*-------------------Media Queries-------------------------*/
+
+@media(min-width: 768px) {
+.carousel-control-next:hover, 
+.carousel-control-prev:hover {
+    transform: scale(4);
+    filter: invert(20%);
+}
 }
