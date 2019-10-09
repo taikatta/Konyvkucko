@@ -3,6 +3,8 @@
 
 This is my first Milestone Project on the Full Stack Web Developer Code Institute course.
 
+#### Summary
+
 I moved to Ireland 5 years ago and since then every time we visit back to Hungary my luggage is packed with Hungarian books. I had an idea of launching a Hungarian Library somewhere in Dublin. Last year I applied for a grant, as a first step I wanted to buy only children's books. The collection is about 120 books by now and it is growing, I got books from authors, organizations, individuals. The launch of the Hungarian children's book will be on the 29th oc October, 2019.
 
 ## UX
@@ -33,7 +35,8 @@ Please note, that although this section contains a form, information entered int
 
 At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-square)'s Facebook icon. Clicking on the icon will open the Konyvkucko's Facebook page in a new tab.
 
-### Features Left to Implement
+#### Features Left to Implement
+
 * I would like to add all the books we have at the library and also a search bar, to make it easier to search within the books.
 
 
@@ -51,16 +54,31 @@ At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-squar
     
 ## Testing
 
-I used the web developer tools consistently. 
+Throughout the development of the project, I carried out testing. I used the Chrome Developer Tools consistently.
 
 I used [W3C Validator](https://validator.w3.org/) to check the markup validity of Web documents in HTML and CSS. Highlighted errors:
-* I used the same id in two different places.
-* When I deleted a <div> I forgot to delete the closing </div>
+* I used the same `id` in two different places.
+* When I deleted a `<div>` I forgot to delete the closing `</div>`
+
+#### Operational Test
+
+| Nr | Test          | Before image  |After image  |
+| ---|:-------------:| -----:| -----:|
+| 1 | right-aligned | $1600 |$1600 |
+| 2 | centered      |   $12 |$1600 |
+| 3 | are neat      |    $1 |$1600 |
+| 4 | are neat      |    $1 |$1600 |
+| 3 | are neat      |    $1 |$1600 |
+| 3 | are neat      |    $1 |$1600 |
+| 3 | are neat      |    $1 |$1600 |
+| 3 | are neat      |    $1 |$1600 |
+
 
 ## Deployment
+
 This site is hosted using GitHub pages, deployed directly from the master branch.
 
-### How to run this project locally
+#### How to run this project locally
 * Select the [Repository](https://github.com/taikatta/Milestone1-Konyvkucko)
 * Click on the 'Clone or Download' button
 * Copy the URL provided
@@ -70,11 +88,11 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 
 ## Credits
 
-### Content
+#### Content
 
 At Our Books section the short description of the books are from the author's ([Berg Judit](https://www.bergjudit.hu/)) webpage.
 
-### Media
+#### Media
 
 The first background photo was taken from [Stavros Sotiriou's](https://ssaphoto.co.uk/deansgrange-library) website. I have Stavros' permission to use the photo in my project.
 
@@ -82,8 +100,7 @@ The second and third background photos are mine. The photos in slideshow were al
 
 The photos of the book covers in the Books session are from the author's ([Berg Judit](https://www.bergjudit.hu/)) webpage. 
 
-### Acknowledgements
-
+#### Acknowledgements
 
 
 
