@@ -58,7 +58,15 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 * When I deleted a <div> I forgot to delete the closing </div>
 
 ## Deployment
-My website has been deployed using GitHub Pages.
+This site is hosted using GitHub pages, deployed directly from the master branch.
+
+### How to run this project locally
+* Select the [Repository](https://github.com/taikatta/Milestone1-Konyvkucko)
+* Click on the 'Clone or Download' button
+* Copy the URL provided
+* Open your preferred IDE
+* Find the directory you want to clone the repository to
+* In your terminal window type `git clone` and paste the URL
 
 ## Credits
 
