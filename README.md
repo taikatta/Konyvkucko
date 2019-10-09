@@ -62,16 +62,14 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 
 #### Operational Test
 
-| Nr | Test          | Before image  |After image  |
-| ---|:-------------:| -----:| -----:|
-| 1 | right-aligned | $1600 |$1600 |
-| 2 | centered      |   $12 |$1600 |
-| 3 | are neat      |    $1 |$1600 |
-| 4 | are neat      |    $1 |$1600 |
-| 3 | are neat      |    $1 |$1600 |
-| 3 | are neat      |    $1 |$1600 |
-| 3 | are neat      |    $1 |$1600 |
-| 3 | are neat      |    $1 |$1600 |
+| Nr | Test          | Before image  | After image  | Test result |
+| ---|:-------------:| :-----:| :-----:| :-----:|
+| 1 | Click - **Books** Button      |    ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home") |![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/books_after.png "Books") | Passed |
+| 2 | Click - **Gallery** Button      |   ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home") |![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Gallery_after.png "Gallery") |Passed |
+| 3 | Click - **Contact** Button      |   ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home")|![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Contact_after.png "Contact") |Passed |
+
+
+
 
 
 ## Deployment
