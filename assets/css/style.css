@@ -175,8 +175,18 @@ footer  {
 }
 
 @media(max-width: 400px) {
-.first_background_photo {
-    display: block;
-    background-size: auto 400px;
+.first_background_photo,
+.second_background_photo,
+.third__background_photo {
+    color: #d4e3f2;  
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto 600px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
 }
 }
