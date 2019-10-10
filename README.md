@@ -68,6 +68,8 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 | 2 | Click - **Gallery** Button      |   ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home") |![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Gallery_after.png "Gallery") |Passed |
 | 3 | Click - **Contact** Button      |   ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home")|![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Contact_after.png "Contact") |Passed |
 
+#### Problems on iPhone
+`background-size:cover;` was working on desktop and Android mobiles, but not on iPhones. On iPhones the background was too big. After several hours of investigation, this [Stackoverflow](https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios) solution helped me out.
 
 ## Deployment
 
