@@ -71,7 +71,7 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch.
+This website is hosted using GitHub pages, deployed directly from the master branch. Every time I made a change to the site, I used `git commit` and `git push` to send the changes to GitHub.
 
 #### How to run this project locally
 * Select the [Repository](https://github.com/taikatta/Milestone1-Konyvkucko)
