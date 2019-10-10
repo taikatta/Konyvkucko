@@ -44,7 +44,7 @@ User Stories
 
 * HTML5 - provided the structure of the website
 * CSS - was used to style my pages
-* [Bootstrap Framework (4.3.1)](https://getbootstrap.com/) - used for the responsive design, collapsable navbar, card (content container) and carousel (slideshow)
+* [Bootstrap Framework (4.3.1)](https://getbootstrap.com/) - used for the responsive design, collapsible navbar, card (content container) and carousel (slideshow)
 * Git - used for version control
 * [GitHub](https://github.com/) - used to host the deployed website and my repository
 * [Font Awesome](https://fontawesome.com/) - used to import icons
