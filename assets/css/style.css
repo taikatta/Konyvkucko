@@ -178,7 +178,8 @@ footer  {
 .first_background_photo {
     display: block;
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
-    background-size: auto 600px;
+    background-size: auto 400px !important;
+
     
 /*    background-position: center;
     display: flex;
