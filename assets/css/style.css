@@ -179,9 +179,6 @@ footer  {
     color: #d4e3f2;  
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: auto 600px;
     display: flex;
     align-items: center;
