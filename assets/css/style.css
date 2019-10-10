@@ -174,11 +174,3 @@ footer  {
 }
 }
 
-@media(max-width: 400px) {
-.first_background_photo,
-.second_background_photo,
-.third__background_photo {
-    display: block;
-    background-size: auto 600px;
-}
-}
