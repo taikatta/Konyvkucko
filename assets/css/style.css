@@ -173,3 +173,20 @@ footer  {
     filter: invert(20%);
 }
 }
+
+@media(max-width: 600px){
+.first_background_photo {
+    color: #d4e3f2;  
+    height: 100vh;
+    background: url("../images/mobile.png") no-repeat center fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+}
