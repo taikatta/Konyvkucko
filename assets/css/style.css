@@ -33,7 +33,7 @@ body {
 
 /*-------------------Introduction-------------------------*/
 
-.welcome > h2 {
+.welcome h2 {
     text-align: center;
     color: #116bba;
     position: absolute;
@@ -177,15 +177,6 @@ footer  {
 @media(max-width: 400px) {
 .first_background_photo {
     display: block;
-    background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
-    background-size: auto 400px !important;
-
-    
-/*    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: relative;
-    color: #d4e3f2;  */
+    background-size: auto 400px;
 }
 }
