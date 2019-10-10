@@ -176,13 +176,13 @@ footer  {
 
 @media(max-width: 400px) {
 .first_background_photo {
-    color: #d4e3f2;  
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
-    background-position: center;
     background-size: auto 600px;
+/*    background-position: center;
     display: flex;
     align-items: center;
     justify-content:center;
     position: relative;
+    color: #d4e3f2;  */
 }
 }
