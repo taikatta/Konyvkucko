@@ -43,7 +43,6 @@ body {
 .first_background_photo {
     color: #d4e3f2;  
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
     background-position: center;
     -webkit-background-size: cover;
