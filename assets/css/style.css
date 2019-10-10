@@ -43,6 +43,7 @@ body {
 .first_background_photo {
     color: #d4e3f2;  
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
     background-position: center;
     -webkit-background-size: cover;
@@ -101,7 +102,7 @@ body {
 }
 
 .second_background_photo {
-    color: #d4e3f2;  
+    color: #d4e3f2;
     height: 100vh;
     background: url("../images/Deansgrangephoto3.jpg") no-repeat center fixed;
     background-position: center;
@@ -109,7 +110,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content:center;
     position: relative;

@@ -5,7 +5,7 @@ This is my first Milestone Project on the Full Stack Web Developer Code Institut
 
 #### Summary
 
-I moved to Ireland 5 years ago and since then every time we visit back to Hungary my luggage is packed with Hungarian books. I had an idea of launching a Hungarian Library somewhere in Dublin. Last year I applied for a grant, as a first step I wanted to buy only children's books. The collection is about 120 books by now and it is growing, I got books from authors, organizations, individuals. The launch of the Hungarian children's book will be on the 29th oc October, 2019.
+I moved to Ireland 5 years ago and since then every time we visit back to Hungary my luggage is packed with Hungarian books. I had an idea of launching a Hungarian Library somewhere in Dublin. Last year I applied for a grant, as a first step I wanted to buy only children's books. The collection is about 120 books by now and it is growing, I got books from authors, organizations, individuals. The launch of the Hungarian children's book will be on the 29th of October, 2019.
 
 ## UX
 
@@ -50,7 +50,7 @@ At the Footer I used [Font Awesome](https://fontawesome.com/icons/facebook-squar
 * [Font Awesome](https://fontawesome.com/) - used to import icons
 * [Google Fonts](https://fonts.google.com/) - used to import Montserrat fonts
 * [tiny png](https://tinypng.com/) - used to compress images
-* [Javascript/JQuery](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - was imported via the Bootstrap framework, used to create a responsive collapsible navbar, the carousel
+* [JQuery](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - was imported via the Bootstrap framework, used to create a responsive collapsible navbar, the carousel
     
 ## Testing
 
@@ -67,9 +67,6 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 | 1 | Click - **Books** Button      |    ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home") |![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/books_after.png "Books") | Passed |
 | 2 | Click - **Gallery** Button      |   ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home") |![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Gallery_after.png "Gallery") |Passed |
 | 3 | Click - **Contact** Button      |   ![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Home.png "Home")|![alt text](https://github.com/taikatta/Milestone1-Konyvkucko/blob/master/assets/images/Contact_after.png "Contact") |Passed |
-
-
-
 
 
 ## Deployment
@@ -100,5 +97,6 @@ The photos of the book covers in the Books session are from the author's ([Berg 
 
 #### Acknowledgements
 
+Thanks to my mentor, Narender Singh for guiding me on the right path.
 
-
+Anthony O'Brien, you helped and offered advice when I struggled to make this website. You deserve a big thank you from me.
