@@ -44,6 +44,7 @@ body {
     color: #d4e3f2;  
     height: 100vh;
     background: url("../images/Deansgrangephoto2.jpg") no-repeat center fixed;
+    background-attachment: scroll;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -105,6 +106,7 @@ body {
     height: 100vh;
     background: url("../images/Deansgrangephoto3.jpg") no-repeat center fixed;
     background-position: center;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -139,6 +141,7 @@ body {
     height: 100vh;
     background: url("../images/Deansgrangephoto1.jpeg") no-repeat center fixed;
     background-color: #51a4e3;
+    background-attachment: scroll;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -173,4 +176,3 @@ footer  {
     filter: invert(20%);
 }
 }
-
