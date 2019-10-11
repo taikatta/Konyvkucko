@@ -152,8 +152,13 @@ body {
 }
 
 .address {
-    color: #d4e3f2;
     text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.address h6 {
+    color: #d4e3f2;
 }
 
 /*-------------------Footer-------------------------*/
