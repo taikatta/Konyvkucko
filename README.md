@@ -75,6 +75,12 @@ I used [W3C Validator](https://validator.w3.org/) to check the markup validity o
 
 This website is hosted using GitHub pages, deployed directly from the master branch. Every time I made a change to the site, I used `git commit` and `git push` to send the changes to GitHub.
 
+#### How to enable GitHub Pages to publish your site
+* Select the [Repository](https://github.com/taikatta/Milestone1-Konyvkucko)
+* Under the repository name click `Settings` 
+* From the drop-down menu select `master`
+* Click `Save`
+
 #### How to clone your repository to create a local copy
 * Select the [Repository](https://github.com/taikatta/Milestone1-Konyvkucko)
 * Click on the 'Clone or Download' button
