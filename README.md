@@ -78,6 +78,7 @@ This website is hosted using GitHub pages, deployed directly from the master bra
 #### How to enable GitHub Pages to publish your site
 * Select the [Repository](https://github.com/taikatta/Milestone1-Konyvkucko)
 * Under the repository name click `Settings` 
+* Find `GitHub Pages` section
 * From the drop-down menu select `master`
 * Click `Save`
 
